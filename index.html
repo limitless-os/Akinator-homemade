@@ -1,0 +1,32 @@
+<div id="game">
+  <h1>Akinator‑Inspired AI</h1>
+
+  <div id="loadingNote">Loading AI model… please wait.</div>
+
+  <div id="questionText">Loading model…</div>
+
+  <div id="controls">
+    <button id="btnStart" disabled>Start</button>
+    <button id="btnYes" disabled>Yes</button>
+    <button id="btnNo" disabled>No</button>
+    <button id="btnUnknown" disabled>Not Sure</button>
+  </div>
+
+  <div id="guessArea" class="hidden">
+    <p id="guessText"></p>
+    <button id="btnCorrect">Correct</button>
+    <button id="btnWrong">Wrong</button>
+  </div>
+
+  <div id="resultArea" class="hidden"></div>
+
+  <div id="progressBar">
+    <div id="progress"></div>
+  </div>
+  <div id="stepsLabel">Step 0</div>
+
+  <button id="btnReset">Reset</button>
+</div>
+
+<!-- ✅ Correct Transformers.js CDN for CodePen -->
+<script src="https://cdn.jsdelivr.net/npm/@xenova/transformers@2.6.0/dist/transformers.min.js"></script>
